@@ -2,7 +2,7 @@
 
 ## Overview
 
-ARShop is a simple project designed to facilitate the visualization of two-dimensional objects, such as rugs or paintings, in a home environment to aid in purchase decisions. The fundamental concept relies on the use of an ArUco marker, allowing us to define a real-world plane where the projection of objects will occur. This real-time visualization helps users determine if the object fits appropriately within the intended space by assessing size and dimensions.
+ARShop is a simple project designed to facilitate the visualization of two-dimensional objects, such as carpets or paintings, in a home environment, to help make purchasing decisions. The fundamental concept relies on the use of an ArUco marker, allowing us to define a real-world plane where the projection of objects will occur. This real-time visualization helps users determine if the object fits appropriately within the intended space by assessing size and dimensions.
 
 ## Project Workflow
 
