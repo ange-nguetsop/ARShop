@@ -13,11 +13,11 @@ The initial stage includes the crucial process of camera calibration. This step 
 ![Alt Camera Calibration](https://github.com/ange-nguetsop/ARShop/blob/master/CppCLR_WinformsProject-main/CppCLR_WinformsProject/Calibration.gif)
 ### 2. Object Projection
 
-Once the camera has been calibrated, the desired object is projected. This process is based on the detection of the ArUco marker, which represents the origin of our reference frame. When the ArUco marker is detected, the camera's position relative to the marker is determined, and the camera's matrix and distortion coefficients are used to establish a correspondence between the object's 3D coordinates and the coordinates of the 2D image plane.
+Once the camera has been calibrated, the desired object is projected. This process is based on the detection of the ArUco marker, which will represent the origin of our reference frame. When the ArUco marker is detected, the camera's position relative to the marker is determined, and the camera's matrix and distortion coefficients are used to establish a correspondence between the object's 3D coordinates and the coordinates in the image plane of the camera.
 
 ### 3. Augmented Reality Visualization
 
-Once the 3D coordinates of the object have been matched to the 2D coordinates of the camera plane, augmented reality visualization becomes possible. The object can be rotated, resized and moved in real time. Live projection of the object is also possible.
+Once the 3D coordinates of the object have been matched to the 2D coordinates of the camera plane, augmented reality visualization becomes possible.We can now project the object in the real world. The object can be rotated, resized and moved in real time. Live projection of the object is also possible.
 
 ![Alt Camera Calibration](https://github.com/ange-nguetsop/ARShop/blob/master/CppCLR_WinformsProject-main/CppCLR_WinformsProject/ImageView.gif)
 
