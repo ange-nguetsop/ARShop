@@ -2,13 +2,16 @@
 
 ## Overview
 
-ARShop is a simple project designed to facilitate the visualization of two-dimensional objects, such as carpets or paintings, in a home environment, to help make purchasing decisions. The fundamental concept relies on the use of an ArUco marker, allowing us to define a real-world plane where the projection of objects will occur. This real-time visualization helps users determine if the object fits appropriately within the intended space by assessing size and dimensions.
+This project aims to develop an augmented reality (AR) software application that projects virtual objects into the real world with their actual dimensions. Using OpenCV and C++, the software will allow users to evaluate whether a particular object fits well in an environment in terms of size, color, and overall aesthetics.
+
+## Purpose
+The primary purpose of this software is to provide a tool for interior designers, architects, and individuals who wish to visualize how different objects (furniture, artworks, etc.) would look in a specific real-world setting.
 
 ## Project Workflow
 
 ### 1. Camera Calibration
 
-The initial stage includes the crucial process of camera calibration. This step provides valuable information such as intrinsic camera parameters, as well as distortion coefficients. Correct calibration is essential for accurate object projection.
+The initial stage includes the process of camera calibration. This step provides valuable information such as intrinsic camera parameters, as well as distortion coefficients. Correct calibration is essential for accurate object projection.
 
 ![Alt Camera Calibration](https://github.com/ange-nguetsop/ARShop/blob/master/CppCLR_WinformsProject-main/CppCLR_WinformsProject/Calibration.gif)
 ### 2. Object Projection
